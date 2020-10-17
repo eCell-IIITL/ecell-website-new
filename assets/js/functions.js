@@ -56,10 +56,10 @@ $( document ).ready(function() {
     var curActive = $('.side-nav').find('.is-active'),
         curPos = $('.side-nav').children().index(curActive),
         lastItem = $('.side-nav').children().length - 1,
-        nextPos = lastItem;
+        nextPos = lastItem-1;
 
-    updateNavs(lastItem);
-    updateContent(curPos, nextPos, lastItem);
+    updateNavs(lastItem-1);
+    updateContent(curPos, nextPos, lastItem-1);
 
   });
 
