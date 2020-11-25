@@ -1,0 +1,321 @@
+#p1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #c62a88;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 42px;
+  }
+  
+  #p2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    color: #3C4144;
+    text-align: center;
+    line-height: 42px;
+  }
+  
+  #p3 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 35px;
+    color: #c62a88;
+    font-weight: 700;
+    text-align: center;
+    line-height: 42px;
+  }
+  
+  #about_p1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #c62a88;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    line-height: 42px;
+  }
+  
+  #faq_p1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #3C4144;
+    line-height: 42px;
+  }
+  
+  #faq_p2{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 17px;
+    color: #3C4144;
+    line-height: 35px;
+  }
+  
+  
+  .navbar-nav.school-social-links>li>a {
+    color: #EA008A;
+    background-color: #000;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    font-size: 16px;
+    margin: 10px 10px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+  }
+  
+  .bg {
+    background-color: black;
+  }
+  
+  .fa {
+    width: 50px;
+    border-radius: 50px;
+  }
+  
+  .navbar-brand {
+    padding-top: 12px;
+  }
+  
+  .navbar-brand img {
+    max-height: 25px;
+  }
+  
+  .navbar-nav.school-social-links>li>a:hover {
+    color: #EA008A;
+    background-color: #ffffff;
+  }
+  
+  /* contact Button */
+  .contact_btn {
+    background-color: #EA008A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact_btn .btn {
+    margin: 20px;
+  }
+  
+  /*--section--*/
+  .section {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /*--banner--*/
+  .no-margin {
+    margin: 0;
+  }
+  
+  .banner {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+  }
+  
+  #banner {
+    background-size: cover;
+    opacity: 0.4;
+  }
+  
+  #text-top {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+  }
+  
+  #message-mob {
+    display: none;
+  }
+  
+  #images-top {
+    position: absolute;
+    top: 20%;
+  }
+  
+  .overlay {
+    height: 600px;
+    width: 100vw;
+    background: black;
+    overflow: hidden;
+  }
+  
+  .school-name {
+    font-size: 42px;
+    font-family: 'Rubik', sans-serif;
+    color: #E6007F;
+    font-weight: 800;
+  }
+  
+  .welcome {
+    font-size: 42px;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+  }
+  
+  /*--footer--*/
+  #footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #262626;
+  }
+  
+  .pink {
+    color: #ff008a;
+  }
+  
+  .img_hult {
+    left: 1%;
+  }
+  
+  :root {
+    /* Primary Colors */
+    --hp-magenta: #E6007F;
+    --hp-dark: #100C08;
+    --hp-gray: #706F6F;
+    /* Second Colors */
+    --hp-gray-clear: #9D9D9C;
+    --hp-white-clear: #FFFFFF;
+    --hp-magenta-clear: #c00a74;
+    --hp-vine: #841452;
+    --hp-vine-clear: #aa1267;
+    --hp-vine-dark: #631343;
+  }
+  
+  /* General Principal Colors Letters */
+  .hp-white-color {
+    color: var(--hp-white-clear);
+  }
+  
+  .hp-magenta-color {
+    color: var(--hp-magenta);
+  }
+  
+  .hp-dark-color {
+    color: var(--hp-dark);
+  }
+  
+  .hp-gray-color2 {
+    color: var(--hp-gray);
+  }
+  
+  .hp-gray-color {
+    color: var(--hp-gray);
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 5px;
+  }
+  
+  .hp-gray-color:hover {
+    text-decoration: none;
+    color: var(--hp-magenta);
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 5px;
+  }
+  
+  /* Size letter */
+  .hp-size-25px {
+    font-size: 25px !important;
+  }
+  
+  .copyright {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 52px;
+    background: -webkit-linear-gradient(#ef1586, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 75%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+    background-color: #ef1586;
+  }
+  
+  .fa-facebook {
+    background: #6a6970;
+    color: white;
+  }
+  
+  .fa-telegram {
+    background: #6a6970;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #6a6970;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #6a6970;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #6a6970;
+    color: white;
+  }
+  
+  .fa-youtube-play {
+    background: #6a6970;
+    color: white;
+  }
+  
+  .fa-telegram {
+    background: #6a6970;
+    color: white;
+  }
+  
+  /* contact Button */
+  .contact_btn {
+    background-color: #EA008A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact_btn .btn {
+    margin: 20px;
+  }
+  
+  .bt {
+    padding-top: 10px;
+  }
+  
+  .btn-apply {
+    background-color: #6a6970;
+    transition: border-radius 1s;
+    -webkit-transition: border-radius 1s;
+  }
+  
+  .btn-apply:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .hg:hover {
+    background-color: #EA008A;
+  }
