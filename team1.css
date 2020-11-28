@@ -110,9 +110,9 @@ body{
 }
 .wrapper .place{
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 0px;
-  margin: 10px 0;
+  margin: 12px 0;
 }
 .content{
   color: #fff;
@@ -171,7 +171,8 @@ body{
   transition-delay: 0.4s;
 }
 .container .icons li a{
-  color: #7b00e0;
+  /* color: #7b00e0; */
+  color:rgb(255, 0, 0);
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -182,4 +183,5 @@ body{
 }
 .container .icons li a:hover{
   transform: scale(0.9);
+  color: black;
 }
