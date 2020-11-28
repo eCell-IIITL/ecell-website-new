@@ -480,7 +480,7 @@ body {
   margin: 0 0 0 10px;
   font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .header--nav-toggle {
@@ -1189,8 +1189,8 @@ body {
 
 .about--banner img {
   position: absolute;
-  bottom: -90px;
-  right: -12px
+  bottom: -60px;
+  right: -30px;
 }
 
 .about--options {
