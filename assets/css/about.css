@@ -29,7 +29,7 @@
   font-weight: 300;
   font-style: normal
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 #about_body{
   background-color: black;
@@ -44,9 +44,11 @@
   font-size: 40px;
   font-weight: 700;
   padding-top:60px;
-  margin: 0;
-  font-family:  'Montserrat-Black','Rubik';
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+
+  
 }
 
 .container-fluid-custom{
@@ -68,8 +70,9 @@
   max-width: 800px;
   margin: 0px auto 5px;
   font-size:20px;
-  font-family:  'Montserrat-Black','Oxygen';
+  font-family: 'Poppins',sans-serif;
   text-align: center;
+  
 }
 
 h2,p{
