@@ -6,6 +6,7 @@ body{
   padding: 50px;
   text-align: center;
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 
@@ -41,14 +42,28 @@ body{
   text-transform: uppercase
 }
 
+.team_heading1{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 10px;
+  
+}
+
+.team_heading1 h1{
+  color: white;
+}
+
 .team_heading{
   display: flex;
   justify-content: center;
   margin: 50px;
   padding: 10px;
-  border: 5px solid #0f33ff;
+  /* border: 5px solid #0f33ff;
   border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-right-radius: 50px; */
+  border-bottom:5px solid wheat;
+  border-top:5px solid wheat;
 }
 .team_heading h1{
   color: white;
