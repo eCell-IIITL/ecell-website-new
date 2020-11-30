@@ -109,6 +109,11 @@ body{
   margin: 20px auto;
   transition: all 0.3s ease;
 }
+
+.contain .wrapper img:hover{
+  cursor: pointer;
+}
+
 .contain:hover .wrapper img.active{
   height: 470px;
   width: 350px;
