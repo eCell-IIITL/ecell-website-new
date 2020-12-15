@@ -70,7 +70,7 @@ body{
 }
 
 .box{
-  margin:40px;
+  margin:43px;
 }
 
 .row {
@@ -79,6 +79,16 @@ body{
   align-items: center;
 
 }
+
+@media (min-width: 568px){
+  .col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 31.5%;
+ }
+}
+
+
 
 .contain{
   height: 250px;
