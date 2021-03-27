@@ -1790,12 +1790,14 @@ max-width: 30px;
 .outer-nav>li::before {
   content: "";
   position: absolute;
-  top: 50%;
+  /*allignment changed to bottom of the text for better view
+  Fixed the blue hover's alignment in the perspective_left_rotate view*/
+  top: 95%;
   left: 50%;
   -webkit-transform: translate(-50%, -25%);
   transform: translate(-50%, -25%);
   width: 110%;
-  height: 15px;
+  height: 10px;
   opacity: 0;
   background-color: #0f33ff
 }
