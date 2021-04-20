@@ -1790,12 +1790,14 @@ max-width: 30px;
 .outer-nav>li::before {
   content: "";
   position: absolute;
-  top: 50%;
+  /*allignment changed to bottom of the text for better view
+  Fixed the blue hover's alignment in the perspective_left_rotate view*/
+  top: 95%;
   left: 50%;
   -webkit-transform: translate(-50%, -25%);
   transform: translate(-50%, -25%);
   width: 110%;
-  height: 15px;
+  height: 10px;
   opacity: 0;
   background-color: #0f33ff
 }
@@ -1834,4 +1836,29 @@ max-width: 30px;
 .outer-nav li.is-vis:nth-child(5) {
   -webkit-transition-delay: .16s;
   transition-delay: .16s
+}
+
+/*css for contact page icons*/
+.contact--lockup .icons li{
+  display:inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact--lockup .icons {
+  padding-left: 0;
+  padding-top: 30px;
+}
+
+.contact--lockup .icons .icon--size{
+  height: 30px;
+  width: 30px;
+  color: #bbdef5;
+}
+
+.contact--lockup .contact--whatsapp{
+  height: 20px;
+  width: 15px;
+  padding-left: 10px;
+  color: #4FCE5D;
 }
