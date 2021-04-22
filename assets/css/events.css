@@ -383,3 +383,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+
+#footer {
+  padding: 1% 4%;
+  text-align: center;
+  color: white;
+}
