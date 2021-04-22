@@ -1857,8 +1857,6 @@ max-width: 30px;
 }
 
 .contact--lockup .contact--whatsapp{
-  height: 20px;
-  width: 15px;
-  padding-left: 10px;
+  padding-left: 3px;
   color: #4FCE5D;
 }
