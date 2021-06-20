@@ -59,8 +59,10 @@ body {
   /* border: 5px solid #0f33ff;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px; */
-  border-bottom: 5px solid wheat;
-  border-top: 5px solid wheat;
+
+  border-bottom:5px solid rgb(255, 240, 213);
+  border-top:5px solid rgb(255, 240, 213);
+
 }
 .team_heading h1 {
   color: white;
@@ -94,7 +96,7 @@ body {
   transition: all 0.3s ease-in-out;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
   /* background: linear-gradient(45deg, #7b00e0, #ae31d9); */
-  background: #2b24ed;
+  background: #3D84B8;
 }
 .contain:hover {
   height: 430px;
@@ -126,21 +128,23 @@ body {
   border: none;
   border-radius: 5px;
 }
-.wrapper .title {
-  color: #fff;
+.wrapper .title{
+  color: #F0EBCC;
   font-size: 30px;
   font-weight: 500;
   padding: 10px;
   line-height: 25px;
 }
-.wrapper .place {
-  color: #fff;
+
+.wrapper .place{
+  color: #F0EBCC;
   font-size: 15px;
   line-height: 0px;
   margin: 18px 0 13px 0;
 }
-.content {
-  color: wheat;
+
+.content{
+  color: #F0EBCC;
   font-size: 17px;
   margin-top: 10px;
   padding: 1px 20px 10px 20px !important;
