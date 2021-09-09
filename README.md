@@ -6,9 +6,9 @@
 
 # E-CELL IIIT Lucknow
 This website developed to promote the entrepreneurship cell of IIIT Lucknow.<br>
-Main Website at: https://ecell-iiitl.netlify.app/
-Development Deployment at:https://e-cell-iiitl.netlify.app/
-Pull requests are welcome.
-For major changes, please open an issue first to discuss what you would like to change.
+Main Website at: https://ecell-iiitl.netlify.app/ <br>
+Development Deployment at:https://e-cell-iiitl.netlify.app/ <br>
+Pull requests are welcome. <br>
+For major changes, please open an issue first to discuss what you would like to change.<br>
 ## Prerequisites 
 It would not take any dependencies just a simple html document for viewing 
