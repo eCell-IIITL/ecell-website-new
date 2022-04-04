@@ -28,6 +28,11 @@ body {
   color: white;
 }
 
+@media screen and (max-width: 515px){
+  .fix_1{
+    margin: 0px 200px 0px 0px !important;
+  }
+}
 .header--logo img {
   height: auto;
   max-width: 50px;
