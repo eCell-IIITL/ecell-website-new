@@ -18,11 +18,51 @@ body {
   opacity:0.75;
   background-size: 100% 100%;
 }
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 1;
+  padding: 0%;
+  width: 100%;
+} */
+
+#logo img {
+  height: 80px;
+  padding: 20px;
+}
+
+/* .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} */
+
+/* .navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 18px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+
 .heading{
   display: flex;
-  flex-wrap: nowrap;
-}
-.navbar {
+  flex-wrap: nowrap; */
+/* } */
+/* .navbar {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -62,7 +102,7 @@ body {
 .navbar ul li a:hover {
   color: black;
   background-color: white;
-}
+} */
 
 .bod {
   display: flex;
