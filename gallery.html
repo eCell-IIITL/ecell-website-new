@@ -22,27 +22,43 @@
 
     <link rel="stylesheet" href="./assets/css/nicepage.css" media="screen">
     <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/team.css">
    
     <script class="u-script" type="text/javascript" src="./assets/js/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="./assets/js/nicepage.js" defer=""></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link rel="stylesheet" href="./assets/css/events.css">
+    <!-- <link rel="stylesheet" href="./assets/css/events.css"> -->
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/logo only-01.png">
   </head>
-  <nav class="navbar">
+  <div class="navbar">
     <div id="logo">
-      <a href="./index.html"><img src="./assets/img/grayscaledLogo.png" alt="LOGO"></a>
+      <a href="https://e-cell-iiitl.netlify.app/"><img src="./assets/img/logo only-01.png" alt="LOGO"></a>
     </div>
     <div>
-    <ul>
+      <ul>
+        <li class="item"><a href="./index.html">Home</a></li>
+        <li class="item"><a href="#">Our Works</a></li>
+        <li class="item"><a href="./Events.html">Our Events</a></li>
+        <li class="item"><a href="./gallery.html">Gallery</a></li>
+        <li class="item"><a href="#">Teams</a></li>
+      </ul>
+    </div>
+  </div>
+  <header class="header">
+    <img src="./assets/img/logo only-01.png" alt="LOGO" class="header-logo1">
+    <a href="" class="logo"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
       <li class="item"><a href="./index.html">Home</a></li>
-      <!-- <li><a href="">Our Works</a></li> -->
+
+      <li class="item"><a href="#">Our Works</a></li>  
+
       <li class="item"><a href="./Events.html">Our Events</a></li>
       <li class="item"><a href="./gallery.html">Gallery</a></li>
-      <li class="item"><a href="./team.html">Teams</a></li>
+      <li class="item"><a href="#">Teams</a></li>
     </ul>
-    </div>
-  </nav>
+  </header>
   <body class="u-body">
     <section class="u-align-center u-black u-clearfix u-section-1" id="carousel_c823">
       <div class="u-clearfix u-sheet u-sheet-1">
@@ -125,6 +141,21 @@
         </div>
       </div>
     </section>
-    
+    <script>
+      const img = document.querySelector("img");
+      const icons = document.querySelector(".icons");
+      img.onclick = function () {
+        this.classList.toggle("active");
+        icons.classList.toggle("active");
+      }
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
